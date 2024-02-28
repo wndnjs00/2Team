@@ -6,4 +6,85 @@
     android:layout_height="match_parent"
     tools:context=".twoActivity">
 
+    <TextView
+        android:id="@+id/nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="430dp"
+        android:text="이름:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/My_nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="정연수"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/nm"
+        app:layout_constraintStart_toEndOf="@+id/nm"
+        app:layout_constraintTop_toTopOf="@+id/nm"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/mbti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:text="MBTI:"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nm" />
+
+    <TextView
+        android:id="@+id/My_mbti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENFP"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/mbti"
+        app:layout_constraintStart_toEndOf="@+id/mbti"
+        app:layout_constraintTop_toTopOf="@+id/mbti"
+        android:layout_marginStart="20dp"/>
+
+    <TextView
+        android:id="@+id/it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:text="소개"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mbti" />
+
+    <TextView
+        android:id="@+id/My_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:text="안녕하세요\n앱개발을 한번 배워보고 싶어서 시작했는데\n생각보다 많이 어렵지만\n열심히 해보려고 노력중입니다"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/it" />
+
+    <ImageView
+        android:id="@+id/img_bk"
+        android:layout_width="wrap_content"
+        android:layout_height="412dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/My_nm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img_bk" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
