@@ -12,9 +12,9 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="285dp"
         android:layout_weight="1"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/img2" />
 
     <TextView
         android:id="@+id/textView2"
@@ -23,8 +23,9 @@
         android:layout_weight="1"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:layout_marginTop="40dp"
         android:layout_marginStart="10dp"
-        android:text="전주원" />
+        android:text="이름 : 전주원" />
 
     <TextView
         android:id="@+id/textView3"
@@ -35,7 +36,7 @@
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
-        android:text="ISFP" />
+        android:text="MBTI : ISFP" />
 
     <TextView
         android:id="@+id/textView4"
@@ -46,7 +47,7 @@
         android:textStyle="bold"
         android:layout_marginTop="20dp"
         android:layout_marginStart="10dp"
-        android:text="내소개" />
+        android:text="안녕하세요. \n저는 컴퓨터를 전공했고 24살입니다. \n열심히 배워서 멋진 개발자로 성장하고 싶습니다" />
 
 
 </LinearLayout>
