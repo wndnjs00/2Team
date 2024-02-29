@@ -77,16 +77,6 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/button4"
-            android:layout_width="250dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="40dp"
-            android:background="@drawable/button_radius"
-            android:text="신우지"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
     </LinearLayout>
 
 
