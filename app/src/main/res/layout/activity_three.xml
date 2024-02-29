@@ -8,8 +8,8 @@
 
     <TextView
         android:id="@+id/tv_introduce"
-        android:layout_width="363dp"
-        android:layout_height="211dp"
+        android:layout_width="358dp"
+        android:layout_height="126dp"
         android:layout_marginTop="20dp"
         android:text="안녕하세요 2조 정경우라고 합니다. \n 경영을 전공했고 앱 개발을 하고 싶어서 왔습니다. 같이 앱 개발 열심히 해봐요"
         android:textAlignment="center"
@@ -105,7 +105,7 @@
         android:id="@+id/btn_back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="0dp"
         android:text="돌아가기"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -35,14 +35,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.button4.setOnClickListener {
-            // FourActivity 으로 이동
-            val intent = Intent(this, FourActivity::class.java)
-            startActivity(intent)
-        }
-
-
-
 
     }
 }
